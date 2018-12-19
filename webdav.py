@@ -1,8 +1,5 @@
 #python 2.7.6
 
-print "Hello, Dcoder!"
-#!/usr/bin/python
-
 import requests
 import string
 import random
@@ -43,7 +40,7 @@ def upload():
 if __name__ == '__main__':
   if len(sys.argv) != 3:
   
-    print('\nUsage: python \033[32;1mWebDAV.py\033[0m [URL Target] [Nama File Script]\n')
+    print('\nUsage: python2 \033[32;1mwebdav.py\033[0m [URL Target] [Nama File Script]\n')
     sys.exit(0)
 
   sc = ''
